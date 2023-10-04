@@ -1,0 +1,101 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the parallax sections */
+.parallax {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.content h1
+{
+    padding: 160px;
+}
+.content h2
+{
+    padding: 160px;
+    font-size: xx-large
+}
+
+.parallax-bg, .parallax-bg2, .parallax-bg3, .parallax-bg4 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transform: translateZ(0);
+    
+}
+.parallax
+{
+    background-image: url('images/1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.parallax1
+{
+    background-image: url('images/3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.parallax2
+{
+    background-image: url('images/4.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.parallax3
+{
+    background-image: url('images/2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+/* .parallax-bg {
+    background-image: url('images/1.jpg');
+    
+    background-attachment: fixed;
+}
+
+.parallax-bg2 {
+    background-image: url('images/3.jpg');
+    
+}
+.parallax-bg3 {
+    background-image: url('images/4.jpg');
+    
+}
+.parallax-bg4 {
+    background-image: url('images/5.jpeg');
+    
+} */
+
+/* Apply styles to regular sections */
+.section {
+    
+    text-align: justify;
+    background-color: #7c7575;
+
+}
+.section h2
+{
+    text-align: center;
+    
+}
+
+
+/* Apply styles to content within parallax sections */
+.content {
+    position: relative;
+    z-index: 1;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+}
